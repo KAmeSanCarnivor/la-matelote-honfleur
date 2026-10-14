@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Matelote - Restaurant sur le Vieux Port d'Honfleur</title>
+    <!-- Import des polices Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+
+    <!-- HEADER / BANDEAU HAUT -->
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo">
+                <h1>La Matelote</h1>
+                <span class="subtitle">Honfleur</span>
+            </div>
+            <div class="header-info">
+                <div id="horaire-container" class="badge-horaire">
+                    <span class="dot"></span> <span id="horaire-du-jour">Chargement des horaires...</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/people/La-Matelote-Honfleur/61556094094829/" class="social-link" aria-label="Facebook de La Matelote" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/LAMATELOTEHONFLEUR/" class="social-link" aria-label="Instagram de La Matelote" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg>
+                    </a>
+                </div>
+                <a href="tel:0981287611" class="btn-appel">📞 Appeler</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION HERO (ACCUEIL) -->
+    <section class="hero">
+        <div class="hero-image-wrap">
+            <img src="image_terrasse_port.jpg" alt="Terrasse de La Matelote face au port d'Honfleur" class="hero-img">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h2 data-en="Authenticity &amp; Freshness on the Harbour" data-es="Autenticidad y Frescura en el Puerto" data-it="Autenticità e Freschezza sul Porto" data-nl="Authenticiteit &amp; Frisheid aan de Haven" data-de="Authentizität &amp; Frische am Hafen" data-kr="항구의 진정성과 신선함">Authenticité & Fraîcheur sur le Port</h2>
+                <p data-en="Seafood restaurant with a terrace and upstairs dining room in the heart of Honfleur." data-es="Restaurante de pescado, con terraza y sala en el piso superior, en el corazón de Honfleur." data-it="Ristorante di pesce, con terrazza e sala al piano superiore, nel cuore di Honfleur." data-nl="Visrestaurant met terras en eetzaal op de verdieping, in het hart van Honfleur." data-de="Fischrestaurant mit Terrasse und Salon im Obergeschoss im Herzen von Honfleur." data-kr="옹플뢰르 중심가에 위치한 생선 요리 전문점, 테라스와 위층 홀을 갖추고 있습니다.">Restaurant de poissons, terrasse et salle à l'étage au cœur d'Honfleur.</p>
+                <a href="#contact" class="btn-primary" data-en="Book / Contact" data-es="Reservar / Contacto" data-it="Prenota / Contatti" data-nl="Reserveren / Contact" data-de="Reservieren / Kontakt" data-kr="예약 / 문의">Réserver / Contact</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION PRÉSENTATION & INTÉRIEUR -->
+    <section class="about container">
+        <div class="about-grid">
+            <div class="about-text">
+                <h2 data-en="Welcome to La Matelote" data-es="Bienvenidos a La Matelote" data-it="Benvenuti a La Matelote" data-nl="Welkom bij La Matelote" data-de="Willkommen bei La Matelote" data-kr="라 마틀로트에 오신 것을 환영합니다">Bienvenue à La Matelote</h2>
+                <p data-en="Enjoy a unique setting facing the harbour basins of Honfleur. Fresh products, homemade cooking and a warm welcome guaranteed, whether on the terrace facing the boats or in our cosy indoor dining room." data-es="Disfrute de un entorno único frente a las dársenas de Honfleur. Productos frescos, cocina casera y una cálida bienvenida garantizada, ya sea en la terraza frente a los barcos o en nuestra acogedora sala interior." data-it="Godetevi una cornice unica di fronte ai bacini di Honfleur. Prodotti freschi, cucina casalinga e calorosa accoglienza garantita, che siate in terrazza di fronte alle barche o nella nostra accogliente sala interna." data-nl="Geniet van een unieke setting aan de havenbekkens van Honfleur. Verse producten, huisgemaakte keuken en een warm onthaal gegarandeerd, of u nu op het terras voor de boten zit of in onze gezellige binnenzaal." data-de="Genießen Sie ein einzigartiges Ambiente direkt an den Hafenbecken von Honfleur. Frische Produkte, hausgemachte Küche und ein herzlicher Empfang garantiert, ob auf der Terrasse mit Blick auf die Boote oder in unserem gemütlichen Innenraum." data-kr="옹플뢰르 바생을 마주한 특별한 공간에서 즐거운 시간을 보내세요. 신선한 재료, 홈메이드 요리, 그리고 따뜻한 환대를 약속드립니다 — 배가 보이는 테라스에서든, 아늑한 실내 홀에서든 마찬가지입니다.">Profitez d'un cadre unique face aux bassins d'Honfleur. Produits frais, cuisine maison et accueil chaleureux garanti, que ce soit en terrasse face aux bateaux ou dans notre salle intérieure cosy.</p>
+
+                <!-- Bloc invitation réservation à l'étage -->
+                <div class="etage-notice">
+                    <h3 data-en="Book your table upstairs" data-es="Reserve su mesa en el piso superior" data-it="Prenotate il vostro tavolo al piano superiore" data-nl="Reserveer uw tafel op de verdieping" data-de="Reservieren Sie Ihren Tisch im Obergeschoss" data-kr="위층 테이블을 예약하세요">Réservez votre table à l'étage</h3>
+                    <p data-en="Don't hesitate to call us, <strong>no matter the size of your party</strong> — we accommodate groups of all sizes." data-es="No dude en llamarnos, <strong>sea cual sea el número de comensales</strong> — nos adaptamos a todos los grupos." data-it="Non esitate a chiamarci, <strong>qualunque sia il numero di ospiti</strong> — ci adattiamo a tutti i gruppi." data-nl="Aarzel niet om ons te bellen, <strong>ongeacht het aantal gasten</strong> — wij passen ons aan elke groep aan." data-de="Zögern Sie nicht, uns anzurufen, <strong>ganz gleich wie groß Ihre Gruppe ist</strong> — wir richten uns nach jeder Gruppengröße." data-kr="<strong>인원수에 상관없이</strong> 언제든 전화 주세요 — 어떤 규모의 그룹이든 맞춰드립니다.">N'hésitez pas à nous appeler, <strong>quel que soit le nombre de convives</strong> — nous nous adaptons à tous les groupes.</p>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="image_salle_matelote.jpg" alt="Salle intérieure du restaurant La Matelote">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CARTE -->
+    <section id="carte" class="carte-section">
+        <div class="carte-container">
+            <div class="carte-header">
+                <div class="carte-header-top">
+                    <button id="lang-toggle-de" class="lang-flag lang-flag-de" type="button" aria-pressed="false" aria-label="Speisekarte auf Deutsch anzeigen" title="Auf Deutsch anzeigen"></button>
+                    <button id="lang-toggle-nl" class="lang-flag lang-flag-nl" type="button" aria-pressed="false" aria-label="Bekijk de kaart in het Nederlands" title="Bekijk in het Nederlands"></button>
+                    <button id="lang-toggle-en" class="lang-flag lang-flag-en" type="button" aria-pressed="false" aria-label="Voir la carte en anglais" title="View in English"></button>
+                    <h2 data-en="Our Menu" data-es="Nuestra Carta" data-it="La Nostra Carta" data-nl="Onze Kaart" data-de="Unsere Speisekarte" data-kr="저희 메뉴">Notre Carte</h2>
+                    <button id="lang-toggle-es" class="lang-flag lang-flag-es" type="button" aria-pressed="false" aria-label="Ver la carta en español" title="Ver en español"></button>
+                    <button id="lang-toggle-it" class="lang-flag lang-flag-it" type="button" aria-pressed="false" aria-label="Vedere il menù in italiano" title="Vedi in italiano"></button>
+                    <button id="lang-toggle-kr" class="lang-flag lang-flag-kr" type="button" aria-pressed="false" aria-label="한국어로 메뉴 보기" title="한국어로 보기"></button>
+                </div>
+                <p class="sous-titre" data-en="Discover our fresh products and Norman specialities" data-es="Descubra nuestros productos frescos y especialidades normandas" data-it="Scoprite i nostri prodotti freschi e le specialità normanne" data-nl="Ontdek onze verse producten en Normandische specialiteiten" data-de="Entdecken Sie unsere frischen Produkte und normannischen Spezialitäten" data-kr="신선한 재료와 노르망디 특산 요리를 만나보세요">Découvrez nos produits frais et spécialités normandes</p>
+            </div>
+
+            <!-- ONGLES / SECTIONS DU MENU (CARTE CLASSIQUE) -->
+            <div class="menu-grid">
+
+                <!-- 1. NOS ENTRÉES -->
+                <div class="menu-category cat-entrees">
+                    <h3 data-en="Starters" data-es="Entrantes" data-it="Antipasti" data-nl="Voorgerechten" data-de="Vorspeisen" data-kr="전채 요리">Nos entrées</h3>
+                    <ul class="menu-list">
+                        <li><span class="dish-name" data-en="Norman crispy pastry <small>(andouille sausage, apple, camembert)</small>" data-es="Crujiente normando <small>(andouille, manzana, camembert)</small>" data-it="Croccante normanno <small>(andouille, mela, camembert)</small>" data-nl="Normandisch krokantje <small>(andouille, appel, camembert)</small>" data-de="Normannisches Knuspergebäck <small>(Andouille, Apfel, Camembert)</small>" data-kr="노르망디식 크루스티앙 <small>(앙두이유 소시지, 사과, 카망베르 치즈)</small>">Croustillant normand <small>(andouille, pomme fruit, camembert)</small></span><span class="dish-price">12.50€</span></li>
+                        <li><span class="dish-name" data-en="Fisherman's platter <small>(2 oysters, 5 whelks, 5 shrimp)</small>" data-es="Plato del pescador <small>(2 ostras, 5 bocinas, 5 gambas)</small>" data-it="Piatto del pescatore <small>(2 ostriche, 5 lumache di mare, 5 gamberi)</small>" data-nl="Vissersbord <small>(2 oesters, 5 wulken, 5 garnalen)</small>" data-de="Fischerteller <small>(2 Austern, 5 Wellhornschnecken, 5 Garnelen)</small>" data-kr="어부의 접시 <small>(굴 2개, 쇠고둥 5개, 새우 5마리)</small>">Assiette du pêcheur <small>(2 huîtres, 5 bulots, 5 crevettes)</small></span><span class="dish-price">14.50€</span></li>
+                        <li><span class="dish-name" data-en="Salmon tartare with citrus" data-es="Tartar de salmón con cítricos" data-it="Tartare di salmone agli agrumi" data-nl="Zalmtartaar met citrusvruchten" data-de="Lachstatar mit Zitrusfrüchten" data-kr="연어 타르타르와 시트러스">Tartare de saumon et agrumes</span><span class="dish-price">12.50€</span></li>
+                        <li><span class="dish-name" data-en="Beef carpaccio, parmesan shavings and olive oil" data-es="Carpaccio de ternera, virutas de parmesano y aceite de oliva" data-it="Carpaccio di manzo, scaglie di parmigiano e olio d'oliva" data-nl="Runderfiletcarpaccio, parmezaanschaafsel en olijfolie" data-de="Rindercarpaccio, Parmesanspäne und Olivenöl" data-kr="소고기 카르파치오, 파르메산 치즈 플레이크와 올리브 오일">Carpaccio de boeuf, copeaux de parmesan et huile d'olive</span><span class="dish-price">12.50€</span></li>
+                        <li><span class="dish-name" data-en="Fish soup with croutons and rouille" data-es="Sopa de pescado con picatostes y salsa rouille" data-it="Zuppa di pesce con crostini e salsa rouille" data-nl="Vissoep met croutons en rouille" data-de="Fischsuppe mit Croutons und Rouille" data-kr="생선 수프, 크루통과 루이유 소스">Soupe de poisson, croûtons et rouille</span><span class="dish-price">12.50€</span></li>
+                        <li><span class="dish-name" data-en="Breaded camembert with blueberry jam, salad" data-es="Camembert empanado con mermelada de arándanos, ensalada" data-it="Camembert impanato con confettura di mirtilli, insalata" data-nl="Gepaneerde camembert met bosbessenjam, salade" data-de="Panierter Camembert mit Heidelbeermarmelade, Salat" data-kr="빵가루 입힌 카망베르와 블루베리 잼, 샐러드">Camembert pané et sa confiture de myrtilles, salade</span><span class="dish-price">16.50€</span></li>
+                        <li><span class="dish-name" data-en="Chef's foie gras with Calvados" data-es="Foie gras del chef al Calvados" data-it="Foie gras dello chef al Calvados" data-nl="Foie gras van de chef met Calvados" data-de="Foie gras des Küchenchefs mit Calvados" data-kr="셰프의 푸아그라, 칼바도스">Foie gras du chef au Calvados</span><span class="dish-price">16.50€</span></li>
+                        <li><span class="dish-name" data-en="Mussels gratin with garlic butter" data-es="Mejillones gratinados con mantequilla de ajo" data-it="Cozze gratinate al burro d'aglio" data-nl="Mosselen gegratineerd met knoflookboter" data-de="Überbackene Muscheln mit Knoblauchbutter" data-kr="마늘버터 그라탱 홍합">Moules gratinées au beurre d'ail</span><span class="dish-price">15.00€</span></li>
+                        <li><span class="dish-name" data-en="Tomato and burrata, olive oil and basil" data-es="Tomate y burrata, aceite de oliva y albahaca" data-it="Pomodoro e burrata, olio d'oliva e basilico" data-nl="Tomaat en burrata, olijfolie en basilicum" data-de="Tomate und Burrata, Olivenöl und Basilikum" data-kr="토마토와 부라타 치즈, 올리브 오일과 바질">Tomate burrata, huile d'olive et basilic</span><span class="dish-price">15.00€</span></li>
+                    </ul>
+                </div>
+
+                <!-- 2 & 3. NOS GALETTES & SALADES -->
+                <div class="menu-category cat-galettes">
+                    <h3 data-en="Buckwheat Pancakes & Salads" data-es="Galettes y Ensaladas" data-it="Galettes e Insalate" data-nl="Galettes & Salades" data-de="Galettes & Salate" data-kr="갈레트 & 샐러드">Nos galettes & salades</h3>
+
+                    <h4 class="menu-subcategory-title" data-en="Buckwheat Pancakes" data-es="Galettes (trigo sarraceno)" data-it="Galettes (grano saraceno)" data-nl="Galettes (boekweit)" data-de="Galettes (Buchweizen)" data-kr="갈레트 (메밀전병)">Nos galettes</h4>
+                    <ul class="menu-list">
+                        <li><span class="dish-name" data-en="Complète <small>(ham, cheese, egg)</small>" data-es="Complète <small>(jamón, queso, huevo)</small>" data-it="Complète <small>(prosciutto, formaggio, uovo)</small>" data-nl="Complète <small>(ham, kaas, ei)</small>" data-de="Complète <small>(Schinken, Käse, Ei)</small>" data-kr="콩플레트 <small>(햄, 치즈, 달걀)</small>">Complète <small>(jambon, fromage, oeuf)</small></span><span class="dish-price">14.00€</span></li>
+                        <li><span class="dish-name" data-en="Normande <small>(andouille sausage, camembert, cider cream)</small>" data-es="Normande <small>(andouille, camembert, crema de sidra)</small>" data-it="Normande <small>(andouille, camembert, crema al sidro)</small>" data-nl="Normande <small>(andouille, camembert, cidercrème)</small>" data-de="Normande <small>(Andouille, Camembert, Cidre-Sahne)</small>" data-kr="노르망드 <small>(앙두이유 소시지, 카망베르, 시드르 크림)</small>">Normande <small>(andouille, camembert, crème au cidre)</small></span><span class="dish-price">16.00€</span></li>
+                        <li><span class="dish-name" data-en="Honfleuraise <small>(leek fondue, scallops, cream)</small>" data-es="Honfleuraise <small>(fondue de puerros, vieiras, crema)</small>" data-it="Honfleuraise <small>(fonduta di porri, capesante, crema)</small>" data-nl="Honfleuraise <small>(preifondue, sint-jakobsschelpen, room)</small>" data-de="Honfleuraise <small>(Lauchfondue, Jakobsmuscheln, Sahne)</small>" data-kr="옹플뢰레즈 <small>(리크 퐁뒤, 가리비, 크림)</small>">Honfleuraise <small>(fondue de poireaux, Saint-Jacques, crème)</small></span><span class="dish-price">21.00€</span></li>
+                    </ul>
+
+                    <h4 class="menu-subcategory-title" data-en="Salads" data-es="Ensaladas" data-it="Insalate" data-nl="Salades" data-de="Salate" data-kr="샐러드">Nos salades</h4>
+                    <ul class="menu-list">
+                        <li><span class="dish-name" data-en="Cesar<br><small>breaded chicken, tomatoes, parmesan shavings, Caesar dressing</small>" data-es="Cesar<br><small>pollo empanado, tomates, virutas de parmesano, salsa César</small>" data-it="Cesar<br><small>pollo impanato, pomodori, scaglie di parmigiano, salsa Caesar</small>" data-nl="Cesar<br><small>gepaneerde kip, tomaten, parmezaanschaafsel, caesardressing</small>" data-de="Cesar<br><small>paniertes Hähnchen, Tomaten, Parmesanspäne, Caesar-Dressing</small>" data-kr="시저<br><small>튀긴 치킨, 토마토, 파르메산 치즈 플레이크, 시저 드레싱</small>">Cesar<br><small>poulet pané, tomates, copeaux de parmesan, sauce césar</small></span><span class="dish-price">16.50€</span></li>
+                        <li><span class="dish-name" data-en="Veggie<br><small>peppers, tomatoes, cucumber, grated carrots</small>" data-es="Veggie<br><small>pimientos, tomates, pepino, zanahoria rallada</small>" data-it="Veggie<br><small>peperoni, pomodori, cetriolo, carote grattugiate</small>" data-nl="Veggie<br><small>paprika, tomaten, komkommer, geraspte wortel</small>" data-de="Veggie<br><small>Paprika, Tomaten, Gurke, geriebene Karotten</small>" data-kr="베지<br><small>파프리카, 토마토, 오이, 채썬 당근</small>">Veggie<br><small>poivrons, tomates, concombre, carottes râpées</small></span><span class="dish-price">16.00€</span></li>
+                        <li><span class="dish-name" data-en="Matelote<br><small>shrimp, salmon, grated carrots</small>" data-es="Matelote<br><small>gambas, salmón, zanahoria rallada</small>" data-it="Matelote<br><small>gamberi, salmone, carote grattugiate</small>" data-nl="Matelote<br><small>garnalen, zalm, geraspte wortel</small>" data-de="Matelote<br><small>Garnelen, Lachs, geriebene Karotten</small>" data-kr="마틀로트<br><small>새우, 연어, 채썬 당근</small>">Matelote<br><small>crevettes, saumon, carottes râpées</small></span><span class="dish-price">21.00€</span></li>
+                    </ul>
+                </div>
+
+                <!-- 4. NOS PLATS -->
+                <div class="menu-category cat-plats">
+                    <h3 data-en="Main Courses" data-es="Platos Principales" data-it="Piatti Principali" data-nl="Hoofdgerechten" data-de="Hauptgerichte" data-kr="메인 요리">Nos plats</h3>
+                    <ul class="menu-list">
+                        <li><span class="dish-name" data-en="Norman burger <small>(beef patty, camembert, tomato, onion, lettuce)</small>" data-es="Hamburguesa normanda <small>(carne picada, camembert, tomate, cebolla, lechuga)</small>" data-it="Hamburger normanno <small>(polpetta di manzo, camembert, pomodoro, cipolla, lattuga)</small>" data-nl="Normandische hamburger <small>(rundvleesburger, camembert, tomaat, ui, sla)</small>" data-de="Normannischer Hamburger <small>(Rindfleischpatty, Camembert, Tomate, Zwiebel, Salat)</small>" data-kr="노르망디 버거 <small>(소고기 패티, 카망베르, 토마토, 양파, 상추)</small>">Hamburger normand <small>(steak haché, camembert, tomate, oignons, salade)</small></span><span class="dish-price">18.50€</span></li>
+                        <li><span class="dish-name" data-en="Chicken burger <small>(breaded chicken, lettuce, tomato, onion)</small>" data-es="Hamburguesa de pollo <small>(pollo empanado, lechuga, tomate, cebolla)</small>" data-it="Hamburger di pollo <small>(pollo impanato, lattuga, pomodoro, cipolla)</small>" data-nl="Kip hamburger <small>(gepaneerde kip, sla, tomaat, ui)</small>" data-de="Chicken-Hamburger <small>(paniertes Hähnchen, Salat, Tomate, Zwiebel)</small>" data-kr="치킨 버거 <small>(튀긴 치킨, 상추, 토마토, 양파)</small>">Hamburger Chicken <small>(poulet pané, salade, tomate, oignons)</small></span><span class="dish-price">18.50€</span></li>
+                        <li><span class="dish-name" data-en="Vegetarian burger <small>(plant-based patty, camembert, tomato, onion, lettuce)</small>" data-es="Hamburguesa vegetariana <small>(proteína vegetal, camembert, tomate, cebolla, lechuga)</small>" data-it="Hamburger vegetariano <small>(polpetta vegetale, camembert, pomodoro, cipolla, lattuga)</small>" data-nl="Vegetarische hamburger <small>(plantaardige burger, camembert, tomaat, ui, sla)</small>" data-de="Vegetarischer Hamburger <small>(pflanzliches Patty, Camembert, Tomate, Zwiebel, Salat)</small>" data-kr="채식 버거 <small>(식물성 패티, 카망베르, 토마토, 양파, 상추)</small>">Hamburger végétarien <small>(steak végétal, camembert, tomate, oignons, salade)</small></span><span class="dish-price">18.50€</span></li>
+                        <li><span class="dish-name" data-en="Rossini-style burger <small>(beef patty, foie gras, lettuce, tomato, onion)</small>" data-es="Hamburguesa estilo Rossini <small>(carne picada, foie gras, lechuga, tomate, cebolla)</small>" data-it="Hamburger alla Rossini <small>(polpetta di manzo, foie gras, lattuga, pomodoro, cipolla)</small>" data-nl="Hamburger Rossini-stijl <small>(rundvleesburger, foie gras, sla, tomaat, ui)</small>" data-de="Hamburger nach Rossini-Art <small>(Rindfleischpatty, Foie gras, Salat, Tomate, Zwiebel)</small>" data-kr="로시니풍 버거 <small>(소고기 패티, 푸아그라, 상추, 토마토, 양파)</small>">Burger façon Rossini <small>(steak haché, foie gras, salade, tomate, oignons)</small></span><span class="dish-price">22.00€</span></li>
+                        <li><span class="dish-name" data-en="Mini-chef's &quot;cocorico&quot; shrimp <small>(chicken ballotines stuffed with shrimp)</small>" data-es="Gambas &quot;cocorico&quot; del mini-chef <small>(ballotines de pollo rellenos de gambas)</small>" data-it="Gamberi &quot;cocorico&quot; del mini-chef <small>(ballottine di pollo farcite di gamberi)</small>" data-nl="&quot;Cocorico&quot; garnalen van de mini-chef <small>(kipballotines gevuld met garnalen)</small>" data-de="&quot;Cocorico&quot;-Garnelen des Mini-Chefs <small>(Hähnchen-Ballotinen gefüllt mit Garnelen)</small>" data-kr="미니 셰프의 &quot;코코리코&quot; 새우 <small>(새우로 속을 채운 치킨 발로틴)</small>">Crevette cocorico du mini-chef <small>(ballotines de volailles farcies aux crevettes)</small></span><span class="dish-price">21.00€</span></li>
+                        <li><span class="dish-name" data-en="Pièce du boucher <small>(sirloin steak)</small>, pepper sauce, fresh fries" data-es="Pièce du boucher <small>(solomillo)</small>, salsa de pimienta, patatas fritas" data-it="Pièce du boucher <small>(controfiletto)</small>, salsa al pepe, patatine fresche" data-nl="Pièce du boucher <small>(entrecote)</small>, pepersaus, verse friet" data-de="Pièce du boucher <small>(Rumpsteak)</small>, Pfeffersauce, frische Pommes" data-kr="피에스 뒤 부셰 <small>(등심 스테이크)</small>, 후추 소스, 감자튀김">Pièce du boucher sauce poivre, frites fraîches</span><span class="dish-price">21.00€</span></li>
+                        <li><span class="dish-name" data-en="Glazed chicken fillet, Norman-style, mashed potatoes" data-es="Filete de pollo laqueado a la normanda, puré de patatas" data-it="Filetto di pollo laccato alla normanna, purè di patate" data-nl="Gelakte kipfilet op Normandische wijze, aardappelpuree" data-de="Lackiertes Hähnchenfilet nach normannischer Art, Kartoffelpüree" data-kr="노르망디식 유약 닭가슴살, 감자 퓨레">Filet de poulet laqué, à la normande, écrasé de pomme de terre</span><span class="dish-price">21.00€</span></li>
+                        <li><span class="dish-name" data-en="Lamb shank, honey and rosemary, mashed potatoes" data-es="Codillo de cordero con miel y romero, puré de patatas" data-it="Stinco d'agnello con miele e rosmarino, purè di patate" data-nl="Lamsschenkel met honing en rozemarijn, aardappelpuree" data-de="Lammhaxe mit Honig und Rosmarin, Kartoffelpüree" data-kr="양 정강이살, 꿀과 로즈마리, 감자 퓨레">Souris d'agneau, miel et romarin, écrasé de pomme de terre</span><span class="dish-price">27.00€</span></li>
+                        <li><span class="dish-name" data-en="Ribeye steak, pepper sauce, fries and salad" data-es="Entrecot, salsa de pimienta, patatas fritas y ensalada" data-it="Entrecôte, salsa al pepe, patatine e insalata" data-nl="Entrecote, pepersaus, friet en salade" data-de="Entrecôte, Pfeffersauce, Pommes und Salat" data-kr="앙트레코트, 후추 소스, 감자튀김과 샐러드">Entrecôte, sauce au poivre, frites et salade</span><span class="dish-price">27.00€</span></li>
+                        <li><span class="dish-name" data-en="Mussels &amp; fresh fries <small>(mariner, cream, camembert, roquefort or curry)</small>" data-es="Mejillones con patatas fritas <small>(marinera, nata, camembert, roquefort o curry)</small>" data-it="Cozze con patatine fresche <small>(marinara, panna, camembert, roquefort o curry)</small>" data-nl="Mosselen met verse friet <small>(marinière, room, camembert, roquefort of curry)</small>" data-de="Miesmuscheln mit frischen Pommes <small>(Marinière, Sahne, Camembert, Roquefort oder Curry)</small>" data-kr="홍합과 감자튀김 <small>(마리니에르, 크림, 카망베르, 로크포르 또는 카레)</small>">Moules, frites fraîches <small>(marinière, crème, camembert, roquefort ou curry)</small></span><span class="dish-price">16.50€</span></li>
+                        <li><span class="dish-name" data-en="Fish &amp; chips" data-es="Fish &amp; chips" data-it="Fish &amp; chips" data-nl="Fish &amp; chips" data-de="Fish &amp; chips" data-kr="피시 앤 칩스">Fish & chips</span><span class="dish-price">16.50€</span></li>
+                        <li><span class="dish-name" data-en="Salmon linguine" data-es="Linguine con salmón" data-it="Linguine al salmone" data-nl="Linguine met zalm" data-de="Linguine mit Lachs" data-kr="연어 링귀네">Linguine au saumon</span><span class="dish-price">21.00€</span></li>
+                        <li><span class="dish-name" data-en="Sea bass fillet, fennel and mashed potatoes" data-es="Filete de lubina, hinojo y puré de patatas" data-it="Filetto di branzino, finocchio e purè di patate" data-nl="Zeebaarsfilet, venkel en aardappelpuree" data-de="Wolfsbarschfilet, Fenchel und Kartoffelpüree" data-kr="농어 필레, 펜넬과 감자 퓨레">Filet de bar, fenouil et écrasé de pomme de terre</span><span class="dish-price">27.00€</span></li>
+                        <li><span class="dish-name" data-en="Fish Matelote <small>(pan-seared scallops, roasted salmon and sea bass, mussels, mashed potatoes, leek fondue, cream sauce)</small>" data-es="Matelote de pescado <small>(vieiras salteadas, salmón y lubina asados, mejillones, puré de patatas, fondue de puerros, salsa de nata)</small>" data-it="Matelote di pesce <small>(capesante saltate, salmone e branzino arrosto, cozze, purè di patate, fonduta di porri, salsa alla panna)</small>" data-nl="Vismatelote <small>(gebakken sint-jakobsschelpen, geroosterde zalm en zeebaars, mosselen, aardappelpuree, preifondue, roomsaus)</small>" data-de="Fisch-Matelote <small>(gebratene Jakobsmuscheln, ofengebratenen Lachs und Wolfsbarsch, Miesmuscheln, Kartoffelpüree, Lauchfondue, Sahnesauce)</small>" data-kr="생선 마틀로트 <small>(팬에 구운 가리비, 구운 연어와 농어, 홍합, 감자 퓨레, 리크 퐁뒤, 크림 소스)</small>">Matelote de poisson <small>(Saint-Jacques poêlées, saumon et bar rôtis, moules, écrasé de pomme de terre, fondue de poireaux, sauce crème)</small></span><span class="dish-price">27.00€</span></li>
+                        <li><span class="dish-name" data-en="Pan-seared scallops, risotto and seasonal vegetables" data-es="Vieiras salteadas, risotto y verduras de temporada" data-it="Capesante saltate, risotto e verdure di stagione" data-nl="Gebakken sint-jakobsschelpen, risotto en seizoensgroenten" data-de="Gebratene Jakobsmuscheln, Risotto und Saisongemüse" data-kr="팬에 구운 가리비, 리소토와 제철 채소">Poêlée de St-Jacques, risotto et légumes de saison</span><span class="dish-price">27.00€</span></li>
+                    </ul>
+                </div>
+
+                <!-- 5. NOS FRUITS DE MER -->
+                <div class="menu-category cat-fruitsdemer">
+                    <h3 data-en="Seafood" data-es="Mariscos" data-it="Frutti di Mare" data-nl="Zeevruchten" data-de="Meeresfrüchte" data-kr="해산물">Nos fruits de mer</h3>
+                    <ul class="menu-list">
+                        <li><span class="dish-name" data-en="Our Oysters (6 / 9 / 12)" data-es="Nuestras ostras (6 / 9 / 12)" data-it="Le nostre ostriche (6 / 9 / 12)" data-nl="Onze oesters (6 / 9 / 12)" data-de="Unsere Austern (6 / 9 / 12)" data-kr="굴 (6개 / 9개 / 12개)">Nos Huîtres (Par 6 / Par 9 / Par 12)</span><span class="dish-price">14€ / 19€ / 24€</span></li>
+                        <li><span class="dish-name" data-en="Plate of 12 whelks" data-es="Plato de 12 bocinas" data-it="Piatto di 12 lumache di mare" data-nl="Bord met 12 wulken" data-de="Teller mit 12 Wellhornschnecken" data-kr="쇠고둥 12개 접시">Assiette de 12 bulots</span><span class="dish-price">13.50€</span></li>
+                        <li><span class="dish-name" data-en="Plate of 12 shrimp" data-es="Plato de 12 gambas" data-it="Piatto di 12 gamberi" data-nl="Bord met 12 garnalen" data-de="Teller mit 12 Garnelen" data-kr="새우 12마리 접시">Assiette de 12 crevettes</span><span class="dish-price">13.50€</span></li>
+                        <li><span class="dish-name" data-en="Fresh seafood platter <small>(6 oysters, 8 shrimp, 8 whelks)</small>" data-es="Plato frescura <small>(6 ostras, 8 gambas, 8 bocinas)</small>" data-it="Piatto freschezza <small>(6 ostriche, 8 gamberi, 8 lumache di mare)</small>" data-nl="Frisheidsbord <small>(6 oesters, 8 garnalen, 8 wulken)</small>" data-de="Frische-Teller <small>(6 Austern, 8 Garnelen, 8 Wellhornschnecken)</small>" data-kr="신선함의 접시 <small>(굴 6개, 새우 8마리, 쇠고둥 8개)</small>">Assiette fraîcheur <small>(6 huîtres, 8 crevettes, 8 bulots)</small></span><span class="dish-price">27.00€</span></li>
+                        <li><span class="dish-name" data-en="6 oysters gratin with champagne" data-es="6 ostras gratinadas al champán" data-it="6 ostriche gratinate allo champagne" data-nl="6 gegratineerde oesters met champagne" data-de="6 überbackene Austern mit Champagner" data-kr="샴페인 그라탱 굴 6개">6 Huîtres gratinées au champagne</span><span class="dish-price">16.50€</span></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- SUITE DE LA CARTE : DESSERTS, COUPES GLACÉES ET CRÊPES -->
+            <div class="menu-grid" style="margin-top: 40px;">
+
+                <!-- DESSERTS ET GLACES -->
+                <div class="menu-category cat-desserts">
+                    <h3 data-en="Desserts" data-es="Postres" data-it="Dessert" data-nl="Desserts" data-de="Desserts" data-kr="디저트">Nos desserts</h3>
+                    <ul class="menu-list">
+                        <li><span class="dish-name" data-en="Plate of 3 Norman cheeses" data-es="Plato de 3 quesos normandos" data-it="Piatto di 3 formaggi normanni" data-nl="Bord met 3 Normandische kazen" data-de="Teller mit 3 normannischen Käsesorten" data-kr="노르망디 치즈 3종 접시">Assiette de 3 fromages normands</span><span class="dish-price">9.00€</span></li>
+                        <li><span class="dish-name" data-en="Chocolate mousse" data-es="Mousse de chocolate" data-it="Mousse al cioccolato" data-nl="Chocolademousse" data-de="Schokoladenmousse" data-kr="초콜릿 무스">Mousse au chocolat</span><span class="dish-price">9.00€</span></li>
+                        <li><span class="dish-name" data-en="Crème brûlée" data-es="Crème brûlée" data-it="Crème brûlée" data-nl="Crème brûlée" data-de="Crème brûlée" data-kr="크렘 브륄레">Crème brûlée</span><span class="dish-price">9.00€</span></li>
+                        <li><span class="dish-name" data-en="French toast brioche, homemade salted butter caramel and vanilla ice cream" data-es="Brioche perdida, caramelo de mantequilla salada casero y bola de helado de vainilla" data-it="Brioche perduta, caramello al burro salato fatto in casa e pallina di gelato alla vaniglia" data-nl="Wentelteefje, zelfgemaakte gezouten boterkaramel en bol vanille-ijs" data-de="Arme Ritter, hausgemachtes Salzkaramell und eine Kugel Vanilleeis" data-kr="브리오슈 페르뒤, 홈메이드 솔티드 캐러멜과 바닐라 아이스크림 한 스쿱">Brioche perdue, caramel beurre salé maison et boule de glace vanille</span><span class="dish-price">9.00€</span></li>
+                        <li><span class="dish-name" data-en="Gourmet coffee" data-es="Café gourmand" data-it="Café gourmand" data-nl="Café gourmand" data-de="Café gourmand" data-kr="카페 구르망">Café gourmand</span><span class="dish-price">10.50€</span></li>
+                        <li><span class="dish-name" data-en="Homemade chocolate profiterole" data-es="Profiterol casero de chocolate" data-it="Profiterole al cioccolato fatto in casa" data-nl="Zelfgemaakte chocoladeprofiterole" data-de="Hausgemachte Schokoladenprofiterole" data-kr="홈메이드 초콜릿 프로피트롤">Profiterole au chocolat maison</span><span class="dish-price">10.50€</span></li>
+                    </ul>
+                </div>
+
+                <div class="menu-category cat-coupes">
+                    <h3 data-en="Ice Cream Sundaes" data-es="Copas Heladas" data-it="Coppe Gelato" data-nl="IJscoupes" data-de="Eisbecher" data-kr="아이스크림 선데">Nos coupes glacées</h3>
+                    <ul class="menu-list">
+                        <li><span class="dish-name" data-en="Dame blanche <small>(3 scoops vanilla, homemade chocolate sauce, whipped cream)</small>" data-es="Dame blanche <small>(3 bolas de vainilla, chocolate casero, nata montada)</small>" data-it="Dame blanche <small>(3 palline di vaniglia, cioccolato fatto in casa, panna montata)</small>" data-nl="Dame blanche <small>(3 bollen vanille, zelfgemaakte chocolade, slagroom)</small>" data-de="Dame blanche <small>(3 Kugeln Vanille, hausgemachte Schokolade, Schlagsahne)</small>" data-kr="담 블랑슈 <small>(바닐라 아이스크림 3스쿱, 홈메이드 초콜릿, 휘핑크림)</small>">Dame blanche <small>(3 boules vanille, chocolat maison, chantilly)</small></span><span class="dish-price">9.00€</span></li>
+                        <li><span class="dish-name" data-en="Coffee / Chocolate / Caramel liégeois" data-es="Café / Chocolate / Caramelo liégeois" data-it="Caffè / Cioccolato / Caramello liégeois" data-nl="Café / Chocolade / Caramel liégeois" data-de="Café / Chocolat / Caramel liégeois" data-kr="카페 / 초콜릿 / 캐러멜 리에주아">Café / Chocolat / Caramel liégeois</span><span class="dish-price">9.00€</span></li>
+                        <li><span class="dish-name" data-en="Norman sundae <small>(2 scoops apple sorbet, Calvados)</small>" data-es="Copa normanda <small>(2 bolas de sorbete de manzana, Calvados)</small>" data-it="Coppa normanna <small>(2 palline di sorbetto alla mela, Calvados)</small>" data-nl="Normandische coupe <small>(2 bollen appelsorbet, Calvados)</small>" data-de="Normannischer Becher <small>(2 Kugeln Apfelsorbet, Calvados)</small>" data-kr="노르망디 선데 <small>(사과 소르베 2스쿱, 칼바도스)</small>">Coupe normande <small>(2 boules sorbet pomme, Calvados)</small></span><span class="dish-price">10.00€</span></li>
+                        <li><span class="dish-name" data-en="Colonel sundae <small>(2 scoops lemon sorbet, vodka)</small>" data-es="Copa colonel <small>(2 bolas de sorbete de limón, vodka)</small>" data-it="Coppa colonnello <small>(2 palline di sorbetto al limone, vodka)</small>" data-nl="Coupe colonel <small>(2 bollen citroensorbet, wodka)</small>" data-de="Coupe Colonel <small>(2 Kugeln Zitronensorbet, Wodka)</small>" data-kr="콜로넬 선데 <small>(레몬 소르베 2스쿱, 보드카)</small>">Coupe colonel <small>(2 boules sorbet citron, vodka)</small></span><span class="dish-price">10.00€</span></li>
+                        <li><span class="dish-name" data-en="1 scoop / 2 scoops / 3 scoops sundae" data-es="Copa 1 bola / 2 bolas / 3 bolas" data-it="Coppa 1 pallina / 2 palline / 3 palline" data-nl="Coupe 1 bol / 2 bollen / 3 bollen" data-de="Becher 1 Kugel / 2 Kugeln / 3 Kugeln" data-kr="선데 1스쿱 / 2스쿱 / 3스쿱">Coupe 1 boule / 2 boules / 3 boules</span><span class="dish-price">3.00€ / 5.00€ / 7.00€</span></li>
+                    </ul>
+                </div>
+
+                <div class="menu-category menu-category-full cat-crepes">
+                    <h3 data-en="Crêpes" data-es="Crêpes" data-it="Crêpes" data-nl="Crêpes" data-de="Crêpes" data-kr="크레페">Nos crêpes</h3>
+                    <ul class="menu-list">
+                        <li><span class="dish-name" data-en="Plain or sugar" data-es="Natural o con azúcar" data-it="Naturale o con zucchero" data-nl="Naturel of met suiker" data-de="Pur oder mit Zucker" data-kr="플레인 또는 설탕">Nature ou sucre</span><span class="dish-price">5.00€</span></li>
+                        <li><span class="dish-name" data-en="Butter &amp; sugar" data-es="Mantequilla y azúcar" data-it="Burro e zucchero" data-nl="Boter en suiker" data-de="Butter und Zucker" data-kr="버터와 설탕">Beurre sucre</span><span class="dish-price">5.50€</span></li>
+                        <li><span class="dish-name" data-en="Jam / Caramel / Chocolate / Nutella" data-es="Mermelada / Caramelo / Chocolate / Nutella" data-it="Confettura / Caramello / Cioccolato / Nutella" data-nl="Jam / Karamel / Chocolade / Nutella" data-de="Marmelade / Karamell / Schokolade / Nutella" data-kr="잼 / 캐러멜 / 초콜릿 / 누텔라">Confiture / Caramel / Chocolat / Nutella</span><span class="dish-price">6.20€</span></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- SECTION DES MENUS (BASSIN & MATELOTE SUR 2 COLONNES) -->
+            <div class="menu-two-columns" style="margin-top: 50px;">
+                
+                <!-- MENU BASSIN -->
+                <div class="menu-column-card">
+                    <svg class="menu-icon" viewBox="0 0 48 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M2,8 C8,2 8,14 14,8 C20,2 20,14 26,8 C32,2 32,14 38,8 C41,5 43,5 46,8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+                    <h3 class="menu-title-cursive" data-en="Bassin Menu" data-es="Menú Bassin" data-it="Menù Bassin" data-nl="Menu Bassin" data-de="Menü Bassin" data-kr="바생 메뉴">Menu Bassin</h3>
+                    <p class="menu-formule-desc" data-en="Starter + main or main + dessert: <strong>25 €</strong><br>Starter + main + dessert: <strong>29 €</strong>" data-es="Entrante + plato o plato + postre: <strong>25 €</strong><br>Entrante + plato + postre: <strong>29 €</strong>" data-it="Antipasto + piatto o piatto + dessert: <strong>25 €</strong><br>Antipasto + piatto + dessert: <strong>29 €</strong>" data-nl="Voorgerecht + hoofdgerecht of hoofdgerecht + dessert: <strong>25 €</strong><br>Voorgerecht + hoofdgerecht + dessert: <strong>29 €</strong>" data-de="Vorspeise + Hauptgericht oder Hauptgericht + Dessert: <strong>25 €</strong><br>Vorspeise + Hauptgericht + Dessert: <strong>29 €</strong>" data-kr="전채+메인 또는 메인+디저트: <strong>25 €</strong><br>전채+메인+디저트: <strong>29 €</strong>">
+                        Entrée + plat ou plat + dessert : <strong>25 €</strong><br>
+                        Entrée + plat + dessert : <strong>29 €</strong>
+                    </p>
+
+                    <div class="menu-group-title" data-en="Starters" data-es="Entrantes" data-it="Antipasti" data-nl="Voorgerechten" data-de="Vorspeisen" data-kr="전채">Entrées</div>
+                    <ul class="menu-star-list">
+                        <li data-en="Norman crispy pastry (andouille, apple and camembert)" data-es="Crujiente normando (andouille, manzana y camembert)" data-it="Croccante normanno (andouille, mela e camembert)" data-nl="Normandisch krokantje (andouille, appel en camembert)" data-de="Normannisches Knuspergebäck (Andouille, Apfel und Camembert)" data-kr="노르망디 크루스티앙 (앙두이유, 사과, 카망베르)">Croustillant normand (andouille, pomme et camembert)</li>
+                        <li data-en="Fisherman's platter (2 oysters, 5 whelks, 5 shrimp), 2€ supplement" data-es="Plato del pescador (2 ostras, 5 bocinas, 5 gambas), suplemento 2€" data-it="Piatto del pescatore (2 ostriche, 5 lumache di mare, 5 gamberi), supplemento 2€" data-nl="Vissersbord (2 oesters, 5 wulken, 5 garnalen), toeslag 2€" data-de="Fischerteller (2 Austern, 5 Wellhornschnecken, 5 Garnelen), Aufpreis 2€" data-kr="어부의 접시 (굴 2개, 쇠고둥 5개, 새우 5마리), 추가 요금 2€">Assiette du pêcheur (2 huîtres, 5 bulots, 5 crevettes), supplément 2€</li>
+                        <li data-en="Salmon tartare with citrus" data-es="Tartar de salmón con cítricos" data-it="Tartare di salmone agli agrumi" data-nl="Zalmtartaar met citrusvruchten" data-de="Lachstatar mit Zitrusfrüchten" data-kr="연어 타르타르와 시트러스">Tartare de saumon et agrumes</li>
+                        <li data-en="Beef carpaccio" data-es="Carpaccio de ternera" data-it="Carpaccio di manzo" data-nl="Runderfiletcarpaccio" data-de="Rindercarpaccio" data-kr="소고기 카르파치오">Carpaccio de boeuf</li>
+                    </ul>
+
+                    <div class="menu-separator-img">❖ ❖ ❖</div>
+
+                    <div class="menu-group-title" data-en="Main Courses" data-es="Platos" data-it="Piatti" data-nl="Hoofdgerechten" data-de="Hauptgerichte" data-kr="메인 요리">Plats</div>
+                    <ul class="menu-star-list">
+                        <li data-en="Mussels &amp; fries (mariner, cream, camembert, curry or roquefort)" data-es="Mejillones con patatas fritas (marinera, nata, camembert, curry o roquefort)" data-it="Cozze con patatine (marinara, panna, camembert, curry o roquefort)" data-nl="Mosselen met friet (marinière, room, camembert, curry of roquefort)" data-de="Miesmuscheln mit Pommes (Marinière, Sahne, Camembert, Curry oder Roquefort)" data-kr="홍합과 감자튀김 (마리니에르, 크림, 카망베르, 카레 또는 로크포르)">Moules Frites (Marinière, crème, camembert, curry ou roquefort)</li>
+                        <li data-en="Pièce du boucher (sirloin steak), pepper sauce, fries" data-es="Pièce du boucher (solomillo), salsa de pimienta, patatas fritas" data-it="Pièce du boucher (controfiletto), salsa al pepe, patatine" data-nl="Pièce du boucher (entrecote), pepersaus, friet" data-de="Pièce du boucher (Rumpsteak), Pfeffersauce, Pommes" data-kr="피에스 뒤 부셰 (등심 스테이크), 후추 소스, 감자튀김">Pièce du boucher, sauce au poivre, frites</li>
+                        <li data-en="Glazed chicken fillet, Norman sauce, mashed potatoes" data-es="Filete de pollo laqueado, salsa normanda, puré de patatas" data-it="Filetto di pollo laccato, salsa normanna, purè di patate" data-nl="Gelakte kipfilet, Normandische saus, aardappelpuree" data-de="Lackiertes Hähnchenfilet, normannische Sauce, Kartoffelpüree" data-kr="글레이즈드 닭가슴살, 노르망디 소스, 감자 퓨레">Filet de poulet laqué, sauce normande, écrasé de pomme de terre</li>
+                        <li data-en="Salmon linguine, cream sauce" data-es="Linguine con salmón, salsa de nata" data-it="Linguine al salmone, salsa alla panna" data-nl="Linguine met zalm, roomsaus" data-de="Linguine mit Lachs, Sahnesauce" data-kr="연어 링귀네, 크림 소스">Linguine au saumon, sauce crème</li>
+                    </ul>
+
+                    <div class="menu-separator-img">❖ ❖ ❖</div>
+
+                    <div class="menu-group-title" data-en="Desserts" data-es="Postres" data-it="Dessert" data-nl="Desserts" data-de="Desserts" data-kr="디저트">Desserts</div>
+                    <ul class="menu-star-list">
+                        <li data-en="Plate of 3 Norman cheeses" data-es="Plato de 3 quesos normandos" data-it="Piatto di 3 formaggi normanni" data-nl="Bord met 3 Normandische kazen" data-de="Teller mit 3 normannischen Käsesorten" data-kr="노르망디 치즈 3종 접시">Assiette de 3 fromages normands</li>
+                        <li data-en="Crème brûlée" data-es="Crème brûlée" data-it="Crème brûlée" data-nl="Crème brûlée" data-de="Crème brûlée" data-kr="크렘 브륄레">Crème brûlée</li>
+                        <li data-en="Chocolate mousse" data-es="Mousse de chocolate" data-it="Mousse al cioccolato" data-nl="Chocolademousse" data-de="Schokoladenmousse" data-kr="초콜릿 무스">Mousse au chocolat</li>
+                        <li data-en="French toast brioche, salted butter caramel and vanilla ice cream" data-es="Brioche perdida, caramelo de mantequilla salada y bola de helado de vainilla" data-it="Brioche perduta, caramello al burro salato e pallina di gelato alla vaniglia" data-nl="Wentelteefje, gezouten boterkaramel en bol vanille-ijs" data-de="Arme Ritter, Salzkaramell und eine Kugel Vanilleeis" data-kr="브리오슈 페르뒤, 솔티드 캐러멜과 바닐라 아이스크림">Brioche perdue, caramel beurre salé et sa boule de glace vanille</li>
+                    </ul>
+                </div>
+
+                <!-- MENU MATELOTE -->
+                <div class="menu-column-card">
+                    <svg class="menu-icon" viewBox="0 0 48 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M2,8 C8,2 8,14 14,8 C20,2 20,14 26,8 C32,2 32,14 38,8 C41,5 43,5 46,8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+                    <h3 class="menu-title-cursive" data-en="Matelote Menu" data-es="Menú Matelote" data-it="Menù Matelote" data-nl="Menu Matelote" data-de="Menü Matelote" data-kr="마틀로트 메뉴">Menu Matelote</h3>
+                    <p class="menu-formule-desc" data-en="Starter + main or main + dessert: <strong>35 €</strong><br>Starter + main + dessert: <strong>39 €</strong>" data-es="Entrante + plato o plato + postre: <strong>35 €</strong><br>Entrante + plato + postre: <strong>39 €</strong>" data-it="Antipasto + piatto o piatto + dessert: <strong>35 €</strong><br>Antipasto + piatto + dessert: <strong>39 €</strong>" data-nl="Voorgerecht + hoofdgerecht of hoofdgerecht + dessert: <strong>35 €</strong><br>Voorgerecht + hoofdgerecht + dessert: <strong>39 €</strong>" data-de="Vorspeise + Hauptgericht oder Hauptgericht + Dessert: <strong>35 €</strong><br>Vorspeise + Hauptgericht + Dessert: <strong>39 €</strong>" data-kr="전채+메인 또는 메인+디저트: <strong>35 €</strong><br>전채+메인+디저트: <strong>39 €</strong>">
+                        Entrée + plat ou plat + dessert : <strong>35 €</strong><br>
+                        Entrée + plat + dessert : <strong>39 €</strong>
+                    </p>
+
+                    <div class="menu-group-title" data-en="Starters" data-es="Entrantes" data-it="Antipasti" data-nl="Voorgerechten" data-de="Vorspeisen" data-kr="전채">Entrées</div>
+                    <ul class="menu-star-list">
+                        <li data-en="Chef's foie gras with Calvados" data-es="Foie gras del chef al Calvados" data-it="Foie gras dello chef al Calvados" data-nl="Foie gras van de chef met Calvados" data-de="Foie gras des Küchenchefs mit Calvados" data-kr="셰프의 푸아그라, 칼바도스">Foie gras du chef au Calvados</li>
+                        <li data-en="6 oysters gratin with champagne cream" data-es="6 ostras gratinadas con crema de champán" data-it="6 ostriche gratinate con crema di champagne" data-nl="6 gegratineerde oesters met champagneroom" data-de="6 überbackene Austern mit Champagnersahne" data-kr="샴페인 크림 그라탱 굴 6개">6 huîtres gratinées à la crème de champagne</li>
+                        <li data-en="Breaded camembert with blueberry jam" data-es="Camembert empanado con mermelada de arándanos" data-it="Camembert impanato con confettura di mirtilli" data-nl="Gepaneerde camembert met bosbessenjam" data-de="Panierter Camembert mit Heidelbeermarmelade" data-kr="빵가루 입힌 카망베르와 블루베리 잼">Camembert pané et sa confiture de myrtilles</li>
+                    </ul>
+
+                    <div class="menu-separator-img">❖ ❖ ❖</div>
+
+                    <div class="menu-group-title" data-en="Main Courses" data-es="Platos" data-it="Piatti" data-nl="Hoofdgerechten" data-de="Hauptgerichte" data-kr="메인 요리">Plats</div>
+                    <ul class="menu-star-list">
+                        <li data-en="Sea bass fillet, fennel and mashed potatoes" data-es="Filete de lubina, hinojo y puré de patatas" data-it="Filetto di branzino, finocchio e purè di patate" data-nl="Zeebaarsfilet, venkel en aardappelpuree" data-de="Wolfsbarschfilet, Fenchel und Kartoffelpüree" data-kr="농어 필레, 펜넬과 감자 퓨레">Filet de bar, fenouil et écrasé de pomme de terre</li>
+                        <li data-en="Ribeye steak, pepper sauce, fries and salad" data-es="Entrecot, salsa de pimienta, patatas fritas y ensalada" data-it="Entrecôte, salsa al pepe, patatine e insalata" data-nl="Entrecote, pepersaus, friet en salade" data-de="Entrecôte, Pfeffersauce, Pommes und Salat" data-kr="앙트레코트, 후추 소스, 감자튀김과 샐러드">Entrecôte, sauce au poivre, frites et salade</li>
+                        <li data-en="Lamb shank, honey and rosemary, mashed potatoes" data-es="Codillo de cordero con miel y romero, puré de patatas" data-it="Stinco d'agnello con miele e rosmarino, purè di patate" data-nl="Lamsschenkel met honing en rozemarijn, aardappelpuree" data-de="Lammhaxe mit Honig und Rosmarin, Kartoffelpüree" data-kr="양 정강이살, 꿀과 로즈마리, 감자 퓨레">Souris d'agneau, miel et romarin, écrasé de pomme de terre</li>
+                    </ul>
+
+                    <div class="menu-separator-img">❖ ❖ ❖</div>
+
+                    <div class="menu-group-title" data-en="Desserts" data-es="Postres" data-it="Dessert" data-nl="Desserts" data-de="Desserts" data-kr="디저트">Desserts</div>
+                    <ul class="menu-star-list">
+                        <li data-en="Homemade chocolate profiterole" data-es="Profiterol casero de chocolate" data-it="Profiterole al cioccolato fatto in casa" data-nl="Zelfgemaakte chocoladeprofiterole" data-de="Hausgemachte Schokoladenprofiterole" data-kr="홈메이드 초콜릿 프로피트롤">Profiterole au chocolat maison</li>
+                        <li data-en="Gourmet coffee" data-es="Café gourmand" data-it="Café gourmand" data-nl="Café gourmand" data-de="Café gourmand" data-kr="카페 구르망">Café gourmand</li>
+                        <li data-en="Norman sundae" data-es="Copa normanda" data-it="Coppa normanna" data-nl="Normandische coupe" data-de="Normannischer Becher" data-kr="노르망디 선데">Coupe Normande</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <!-- MENU ENFANT -->
+            <div class="menu-child-card" style="margin-top: 40px;">
+                <svg class="menu-icon" viewBox="0 0 48 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M2,8 C8,2 8,14 14,8 C20,2 20,14 26,8 C32,2 32,14 38,8 C41,5 43,5 46,8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+                <h3 class="menu-title-cursive" data-en="Kids Menu" data-es="Menú Infantil" data-it="Menù Bambini" data-nl="Kindermenu" data-de="Kindermenü" data-kr="어린이 메뉴">Menu Enfant</h3>
+                <p class="menu-formule-desc" style="margin-bottom: 0;" data-en="Price: <strong>13 €</strong>" data-es="Precio: <strong>13 €</strong>" data-it="Prezzo: <strong>13 €</strong>" data-nl="Prijs: <strong>13 €</strong>" data-de="Preis: <strong>13 €</strong>" data-kr="가격: <strong>13 €</strong>">Tarif : <strong>13 €</strong></p>
+
+                <div class="menu-group-title" data-en="Main Courses" data-es="Platos" data-it="Piatti" data-nl="Hoofdgerechten" data-de="Hauptgerichte" data-kr="메인 요리">Plats</div>
+                <ul class="menu-star-list" style="display: inline-block; text-align: left;">
+                    <li data-en="Mussels marinière, fries" data-es="Mejillones a la marinera, patatas fritas" data-it="Cozze alla marinara, patatine" data-nl="Mosselen marinière, friet" data-de="Miesmuscheln „Marinière“, Pommes" data-kr="홍합 마리니에르, 감자튀김">Assiette de moules marinière, frites</li>
+                    <li data-en="Chicken fillet, choice of side" data-es="Filete de pollo, guarnición a elegir" data-it="Filetto di pollo, contorno a scelta" data-nl="Kipfilet, bijgerecht naar keuze" data-de="Hähnchenfilet, Beilage nach Wahl" data-kr="닭가슴살, 곁들임 선택 가능">Filet de poulet, accompagnement au choix</li>
+                    <li data-en="Catch of the day, choice of side" data-es="Pescado del día, guarnición a elegir" data-it="Pesce del giorno, contorno a scelta" data-nl="Vis van de dag, bijgerecht naar keuze" data-de="Fisch des Tages, Beilage nach Wahl" data-kr="오늘의 생선, 곁들임 선택 가능">Poisson du jour, accompagnement au choix</li>
+                </ul>
+
+                <div class="menu-separator-img">❖ ❖ ❖</div>
+
+                <div class="menu-group-title" data-en="Desserts" data-es="Postres" data-it="Dessert" data-nl="Desserts" data-de="Desserts" data-kr="디저트">Desserts</div>
+                <ul class="menu-star-list" style="display: inline-block; text-align: left;">
+                    <li data-en="Sugar crêpe" data-es="Crêpe con azúcar" data-it="Crêpe con zucchero" data-nl="Crêpe met suiker" data-de="Crêpe mit Zucker" data-kr="설탕 크레페">Crêpe au sucre</li>
+                    <li data-en="1 scoop of ice cream" data-es="1 bola de helado" data-it="1 pallina di gelato" data-nl="1 bol ijs" data-de="1 Kugel Eis" data-kr="아이스크림 1스쿱">1 boule de glace</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION ILLUSTRATION PLATS & DESSERTS -->
+    <section class="gallery-preview container">
+        <h2>Le Fait Maison en Images</h2>
+        <div class="gallery-grid">
+            <div class="gallery-card">
+                <img src="image_matelote_poisson.jpg" alt="Matelote de poisson, Saint-Jacques et saumon">
+                <p>Nos poissons et arrivages frais</p>
+            </div>
+            <div class="gallery-card">
+                <div class="gallery-card-split">
+                    <img src="image_profiteroles_maison.jpg" alt="Choux à la crème faits maison, tout juste sortis du four">
+                    <img src="image_coupe_glacee_maison.jpg" alt="Coupe glacée maison, profiterole, glace et chantilly">
+                </div>
+                <p>Nos douceurs et coupes glacées maison</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION INFOS PRATIQUES / CONTACT & RÉSERVATION -->
+    <section class="info-section container" id="contact">
+        <h2>Informations & Réservations</h2>
+        <div class="info-layout">
+            <div class="info-text-col">
+                <div class="info-block">
+                    <h3>Nous trouver</h3>
+                    <p>96 Quai Sainte-Catherine<br>4 Rue du Dauphin<br>14600 Honfleur</p>
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=96+Quai+Sainte-Catherine%2C+14600+Honfleur" class="link-route-btn" target="_blank" rel="noopener">Itinéraire</a>
+                </div>
+
+                <div class="info-divider">❖ ❖ ❖</div>
+
+                <div class="info-block">
+                    <h3>Horaires d'ouverture</h3>
+                    <p>Lundi au Dimanche : 10h00 - 22h00<br><em>Fermé le mardi</em></p>
+                </div>
+
+                <div class="info-divider">❖ ❖ ❖</div>
+
+                <div class="info-block">
+                    <h3>Réservations (Salle à l'étage)</h3>
+                    <div class="info-actions">
+                        <a href="tel:0981287611" class="link-tel-btn">Par téléphone</a>
+                        <a href="mailto:lamatelotehonfleur@hotmail.com?subject=R%C3%A9servation" class="link-mail-btn">Par mail</a>
+                    </div>
+                    <p class="info-contact-details">
+                        <a href="tel:0981287611">09 81 28 76 11</a><br>
+                        <a href="mailto:lamatelotehonfleur@hotmail.com?subject=R%C3%A9servation">lamatelotehonfleur@hotmail.com</a>
+                    </p>
+                    <p class="info-note"><em>(Pas de réservation en terrasse, sans rendez-vous)</em></p>
+                </div>
+            </div>
+            <div class="info-image-col">
+                <img src="image_facade_matelote.jpg" alt="Terrasse et façade du restaurant La Matelote à Honfleur">
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <p>&copy; 2026 La Matelote - Tous droits réservés | Site web optimisé et éco-responsable</p>
+    </footer>
+
+    <!-- SCRIPT JAVASCRIPT POUR LES HORAIRES -->
+    <script>
+        const horaires = {
+            0: "Ouvert (10h - 22h)",      // Dimanche
+            1: "Ouvert (10h - 22h)",      // Lundi
+            2: "Fermé aujourd'hui",       // Mardi
+            3: "Ouvert (10h - 22h)",      // Mercredi
+            4: "Ouvert (10h - 22h)",      // Jeudi
+            5: "Ouvert (10h - 22h)",      // Vendredi
+            6: "Ouvert (10h - 22h)"       // Samedi
+        };
+
+        const jourActuel = new Date().getDay();
+        const elementHoraire = document.getElementById("horaire-du-jour");
+        if(elementHoraire) {
+            elementHoraire.textContent = horaires[jourActuel];
+        }
+    </script>
+
+    <!-- SCRIPT JAVASCRIPT POUR LA TRADUCTION DE LA CARTE -->
+    <script>
+        const btnDe = document.getElementById("lang-toggle-de");
+        const btnNl = document.getElementById("lang-toggle-nl");
+        const btnEn = document.getElementById("lang-toggle-en");
+        const btnEs = document.getElementById("lang-toggle-es");
+        const btnIt = document.getElementById("lang-toggle-it");
+        const btnKr = document.getElementById("lang-toggle-kr");
+        const carteSection = document.getElementById("carte");
+        let currentLang = "fr";
+
+        function setLang(lang) {
+            currentLang = lang;
+            document.querySelectorAll("[data-en]").forEach(function (el) {
+                if (el.dataset.fr === undefined) {
+                    el.dataset.fr = el.innerHTML;
+                }
+                if (lang === "en") {
+                    el.innerHTML = el.dataset.en;
+                } else if (lang === "es") {
+                    el.innerHTML = el.dataset.es;
+                } else if (lang === "it") {
+                    el.innerHTML = el.dataset.it;
+                } else if (lang === "nl") {
+                    el.innerHTML = el.dataset.nl;
+                } else if (lang === "de") {
+                    el.innerHTML = el.dataset.de;
+                } else if (lang === "kr") {
+                    el.innerHTML = el.dataset.kr;
+                } else {
+                    el.innerHTML = el.dataset.fr;
+                }
+            });
+            if (btnDe) {
+                btnDe.classList.toggle("active", lang === "de");
+                btnDe.setAttribute("aria-pressed", String(lang === "de"));
+                btnDe.setAttribute("aria-label", lang === "de" ? "Voir la carte en français" : "Speisekarte auf Deutsch anzeigen");
+                btnDe.setAttribute("title", lang === "de" ? "Voir en français" : "Auf Deutsch anzeigen");
+            }
+            if (btnNl) {
+                btnNl.classList.toggle("active", lang === "nl");
+                btnNl.setAttribute("aria-pressed", String(lang === "nl"));
+                btnNl.setAttribute("aria-label", lang === "nl" ? "Voir la carte en français" : "Bekijk de kaart in het Nederlands");
+                btnNl.setAttribute("title", lang === "nl" ? "Voir en français" : "Bekijk in het Nederlands");
+            }
+            if (btnEn) {
+                btnEn.classList.toggle("active", lang === "en");
+                btnEn.setAttribute("aria-pressed", String(lang === "en"));
+                btnEn.setAttribute("aria-label", lang === "en" ? "Voir la carte en français" : "Voir la carte en anglais");
+                btnEn.setAttribute("title", lang === "en" ? "Voir en français" : "View in English");
+            }
+            if (btnEs) {
+                btnEs.classList.toggle("active", lang === "es");
+                btnEs.setAttribute("aria-pressed", String(lang === "es"));
+                btnEs.setAttribute("aria-label", lang === "es" ? "Voir la carte en français" : "Ver la carta en español");
+                btnEs.setAttribute("title", lang === "es" ? "Voir en français" : "Ver en español");
+            }
+            if (btnIt) {
+                btnIt.classList.toggle("active", lang === "it");
+                btnIt.setAttribute("aria-pressed", String(lang === "it"));
+                btnIt.setAttribute("aria-label", lang === "it" ? "Voir la carte en français" : "Vedere il menù in italiano");
+                btnIt.setAttribute("title", lang === "it" ? "Voir en français" : "Vedi in italiano");
+            }
+            if (btnKr) {
+                btnKr.classList.toggle("active", lang === "kr");
+                btnKr.setAttribute("aria-pressed", String(lang === "kr"));
+                btnKr.setAttribute("aria-label", lang === "kr" ? "Voir la carte en français" : "한국어로 메뉴 보기");
+                btnKr.setAttribute("title", lang === "kr" ? "Voir en français" : "한국어로 보기");
+            }
+        }
+
+        if (btnDe && carteSection) {
+            btnDe.addEventListener("click", function () {
+                setLang(currentLang === "de" ? "fr" : "de");
+            });
+        }
+        if (btnNl && carteSection) {
+            btnNl.addEventListener("click", function () {
+                setLang(currentLang === "nl" ? "fr" : "nl");
+            });
+        }
+        if (btnEn && carteSection) {
+            btnEn.addEventListener("click", function () {
+                setLang(currentLang === "en" ? "fr" : "en");
+            });
+        }
+        if (btnEs && carteSection) {
+            btnEs.addEventListener("click", function () {
+                setLang(currentLang === "es" ? "fr" : "es");
+            });
+        }
+        if (btnIt && carteSection) {
+            btnIt.addEventListener("click", function () {
+                setLang(currentLang === "it" ? "fr" : "it");
+            });
+        }
+        if (btnKr && carteSection) {
+            btnKr.addEventListener("click", function () {
+                setLang(currentLang === "kr" ? "fr" : "kr");
+            });
+        }
+    </script>
+</body>
+</html>
