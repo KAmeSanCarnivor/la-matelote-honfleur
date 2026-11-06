@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre avis - La Matelote</title>
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+    <style>
+        @font-face { font-family: 'Alex Brush'; src: url('../fonts/alexbrush-400.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+        @font-face { font-family: 'Poppins'; src: url('../fonts/poppins-400.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+        @font-face { font-family: 'Poppins'; src: url('../fonts/poppins-600.woff2') format('woff2'); font-weight: 600; font-display: swap; }
+        :root { --blue: #1414B0; --gold: #F5A623; --ink: #2C2C2C; --gray: #6B6B6B; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; color: var(--ink); background: #EDEDED; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px 16px; text-align: center; }
+        .carte { width: 100%; max-width: 420px; background: #fff; border-radius: 20px; padding: 32px 24px 28px; box-shadow: 0 10px 30px rgba(0,0,0,.12); border-top: 6px solid var(--gold); }
+        .logo { width: 72px; height: 72px; margin: 0 auto 8px; display: block; }
+        h1 { font-family: 'Alex Brush', cursive; font-weight: 400; font-size: 3rem; line-height: 1.1; color: var(--blue); }
+        .sous { font-size: .75rem; letter-spacing: 2px; text-transform: uppercase; color: var(--gray); margin-bottom: 22px; }
+        .question { font-size: 1.05rem; margin-bottom: 20px; }
+        .btn { display: block; text-decoration: none; padding: 16px 18px; border-radius: 14px; font-weight: 600; font-size: 1.05rem; margin-top: 12px; }
+        .btn small { display: block; font-weight: 400; font-size: .8rem; margin-top: 2px; }
+        .btn-avis { background: var(--blue); color: #fff; }
+        .btn-avis .etoiles { color: var(--gold); letter-spacing: 3px; display: block; font-size: 1.15rem; }
+        .btn-site { background: #fff; color: var(--blue); border: 2px solid var(--blue); }
+        .btn:active { transform: scale(.98); }
+        .merci { margin-top: 20px; font-size: .85rem; color: var(--gray); }
+    </style>
+</head>
+<body>
+    <main class="carte">
+        <img class="logo" src="../apple-touch-icon.png" alt="" width="72" height="72">
+        <h1>La Matelote</h1>
+        <p class="sous">Vieux Port d'Honfleur</p>
+
+        <p class="question" id="question">Un bon moment chez nous&nbsp;?</p>
+
+        <a class="btn btn-avis" id="btn-avis" href="https://www.google.com/maps/search/?api=1&amp;query=La+Matelote+96+Quai+Sainte-Catherine+Honfleur" rel="noopener">
+            <span class="etoiles" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <span id="t-avis">Laisser un avis Google</span>
+            <small id="s-avis">Cela ne prend que deux minutes</small>
+        </a>
+
+        <a class="btn btn-site" id="btn-site" href="../">
+            <span id="t-site">Voir le site</span>
+            <small id="s-site">Carte, horaires et accès</small>
+        </a>
+
+        <p class="merci" id="merci">Merci, votre avis compte beaucoup pour nous.</p>
+    </main>
+
+    <script>
+        var T = {
+            fr: { question: "Un bon moment chez nous ?", avis: "Laisser un avis Google", savis: "Cela ne prend que deux minutes", site: "Voir le site", ssite: "Carte, horaires et accès", merci: "Merci, votre avis compte beaucoup pour nous." },
+            en: { question: "Enjoyed your time with us?", avis: "Leave a Google review", savis: "It only takes two minutes", site: "Visit our website", ssite: "Menu, opening hours and directions", merci: "Thank you, your feedback means a lot to us." },
+            nl: { question: "Een fijne tijd bij ons gehad?", avis: "Laat een Google-review achter", savis: "Het duurt maar twee minuten", site: "Naar de website", ssite: "Menukaart, openingstijden en route", merci: "Dank u, uw mening is erg belangrijk voor ons." }
+        };
+        var lang = ((navigator.language || "fr").slice(0, 2));
+        var t = T[lang] || T.fr;
+        document.documentElement.lang = T[lang] ? lang : "fr";
+        document.getElementById("question").textContent = t.question;
+        document.getElementById("t-avis").textContent = t.avis;
+        document.getElementById("s-avis").textContent = t.savis;
+        document.getElementById("t-site").textContent = t.site;
+        document.getElementById("s-site").textContent = t.ssite;
+        document.getElementById("merci").textContent = t.merci;
+    </script>
+</body>
+</html>
