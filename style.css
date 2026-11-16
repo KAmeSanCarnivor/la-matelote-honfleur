@@ -526,6 +526,7 @@ body {
 
 .cat-entrees h3 { color: #6b8f6b; }
 .cat-galettes h3 { color: #c9821a; }
+.cat-burgers h3 { color: #b5562a; }
 .cat-plats h3 { color: var(--primary-blue); }
 .cat-fruitsdemer h3 { color: #2a8f8f; }
 .cat-desserts h3 { color: #b5556b; }
@@ -1020,6 +1021,16 @@ body {
     color: var(--accent-gold);
     font-size: 0.85rem;
     top: 1px;
+}
+
+/* Mention en bas de carte (tarifs, service compris) */
+.carte-note {
+    text-align: center;
+    margin-top: 36px;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--text-gray);
+    letter-spacing: 0.3px;
 }
 
 /* ==========================================
